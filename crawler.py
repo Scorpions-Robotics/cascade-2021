@@ -1,7 +1,7 @@
 from icrawler.builtin import BingImageCrawler
 
 classes = ["robots", "ball", "Human faces"]
-number = 30
+number = 200
 for c in classes:
     bing_crawler = BingImageCrawler(
         storage={"root_dir": f'data-sets/n/{c.replace(" ",".")}'}
